@@ -45,6 +45,36 @@ npm run build
 npm start
 ```
 
+## Deploy to Vercel
+
+### Option 1: Deploy via Vercel CLI
+
+1. Install Vercel CLI:
+```bash
+npm i -g vercel
+```
+
+2. Deploy:
+```bash
+vercel
+```
+
+3. Follow the prompts and name your project: **Anne Christine Valenzuela's Portfolio**
+
+### Option 2: Deploy via Vercel Dashboard
+
+1. Push your code to GitHub:
+```bash
+git remote add origin <your-github-repo-url>
+git push -u origin master
+```
+
+2. Go to [vercel.com](https://vercel.com) and sign in
+3. Click "New Project"
+4. Import your GitHub repository
+5. Configure project name as: **Anne Christine Valenzuela's Portfolio**
+6. Vercel will automatically detect Next.js and deploy
+
 ## Tech Stack
 
 - Next.js 14
