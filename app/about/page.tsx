@@ -33,31 +33,24 @@ export default function About() {
               </div>
             </div>
             <div className="about-text">
-              <h3>Hello! I'm a Career Changer</h3>
+              <h3>Hello!</h3>
               <p>
-                I'm a third-year Business Information Technology student, embarking on an exciting 
-                career transition that brings together my diverse background in Early Childhood Education 
-                and Customer Service with my passion for technology. Born and raised in the Philippines, 
-                I've always been inspired by the natural beauty that surrounds us—from the crystal-clear 
-                aquamarine waters to the vibrant culture that defines our identity.
+                I'm a third-year Business Information Technology student making an exciting career transition 
+                from Early Childhood Education and Customer Service to technology. Born and raised in the 
+                Philippines, I'm inspired by the crystal-clear aquamarine waters and vibrant culture that 
+                define our beautiful islands.
               </p>
               <p>
-                My journey into technology is unique—my experience in education taught me the importance 
-                of clear communication and user-centered design, while my customer service background 
-                instilled in me a deep understanding of user needs and problem-solving. These skills, 
-                combined with my technical studies, allow me to approach development with empathy, 
-                creativity, and a focus on creating solutions that truly serve users.
+                My unique background brings valuable perspective to tech—education taught me clear communication 
+                and user-centered design, while customer service gave me deep empathy for user needs. These 
+                experiences, combined with my technical studies, help me approach development with creativity 
+                and a focus on solutions that truly serve users.
               </p>
               <p>
-                As I continue to grow in the tech field, I'm passionate about building modern, 
-                responsive web applications that not only look beautiful but also provide exceptional 
-                user experiences. My diverse background gives me a unique perspective on how technology 
-                can bridge gaps and create meaningful connections.
-              </p>
-              <p>
-                When I'm not studying or vibe coding, you can find me exploring new technologies, working 
-                on personal projects, or simply enjoying the beautiful beaches that the Philippines 
-                has to offer—always finding inspiration in the world around me.
+                I'm passionate about building modern, responsive web applications and I'm really enjoying 
+                vibe coding. When I'm not studying or coding, you'll find me exploring new technologies, 
+                working on personal projects, or enjoying the beautiful beaches of the Philippines—always 
+                finding inspiration in the world around me.
               </p>
               <h3 style={{ marginTop: '2rem' }}>Skills & Technologies</h3>
               <p style={{ fontStyle: 'italic', color: 'var(--text-light)', marginBottom: '1rem' }}>
