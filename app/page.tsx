@@ -34,7 +34,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section style={{ background: 'rgba(127, 255, 212, 0.1)', borderRadius: '20px', margin: '2rem auto' }}>
+        <section className="featured-projects">
           <h2 className="section-title">Featured Projects</h2>
           <div className="projects-grid">
             <div className="project-card">
