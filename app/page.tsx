@@ -46,6 +46,14 @@ export default function Home() {
                 <span className="tag">Low-Code</span>
                 <span className="tag">UX Design</span>
               </div>
+              <a
+                href="/documents/FridgeMate.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="project-doc-link"
+              >
+                View FridgeMate PDF
+              </a>
             </div>
             <div className="project-card">
               <h3>Service Design for Laurea JobFest</h3>

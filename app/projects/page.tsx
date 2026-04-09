@@ -1,11 +1,21 @@
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 
-const projects = [
+type Project = {
+  title: string;
+  description: string;
+  tags: string[];
+  docUrl?: string;
+  docLabel?: string;
+};
+
+const projects: Project[] = [
   {
     title: 'FridgeMate App',
     description: 'A low-code mobile application designed in Figma focused on food and household management. The app helps users track items in their fridge, reduce food waste, and manage household inventory efficiently.',
     tags: ['Figma', 'Mobile App', 'Low-Code', 'UX Design'],
+    docUrl: '/documents/FridgeMate.pdf',
+    docLabel: 'View FridgeMate PDF',
   },
   {
     title: 'My Spot Mobile App',
@@ -45,6 +55,16 @@ export default function Projects() {
                     <span key={tagIndex} className="tag">{tag}</span>
                   ))}
                 </div>
+                {project.docUrl && project.docLabel && (
+                  <a
+                    href={project.docUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="project-doc-link"
+                  >
+                    {project.docLabel}
+                  </a>
+                )}
               </div>
             ))}
           </div>
